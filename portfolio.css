@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    color:white;
+}
+.navbar,.images{
+    display:flex;
+justify-content: space-around;
+}
+#img{
+    margin-left:-20px;
+}
+.button{
+    display:flex;
+    margin-left:50px;
+}
+.links{display:flex;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    margin:10px;
+
+}
+a:hover{/*
+    color:white;
+    font-size:xx-large;
+    font-size: 24px;*/
+}
+.wrap{
+    margin:10dvw;
+}
+#btn,#signup,#Login{
+    background-color: #005DAD;
+    padding:10px;
+    color:white;
+    border-color:none;
+    border:none;
+    border-radius: 11px;
+}
+p{
+    padding-bottom: 30px;
+}
+#btn:hover{
+    color:#005DAD;
+    background-color: white;
+}
+#Login:hover{color:#005DAD;
+    background-color: white;}
+     #signup:hover{color:#005DAD;
+        background-color: white;
+        
+    }
+
+h2{
+    font-family: open-sans;
+}
+img{
+    max-block-size: 20%;
+    size: 0dvb;
+}
+.tools{
+    display:grid;
+}
+/*p{padding-bottom:40px;
+}*/
+i{
+    background-color: antiquewhite;
+}
+body{bac
+    background-image: url("image/newbackground.jpg");
+    background-attachment: scroll;
+    /*background-position: default;*/
+    background-blend-mode:overlay;
+    background-color:rgb(15, 15, 15);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image-width:100%;
+
+ 
+}
+body:hover{
+    background-image: url("image/newbackground.jpg");
+    
+    background-blend-mode: overlay;
+    background-color: rgb(20, 20, 20);
+}
+ .dropdown{
+    position:relative;
+    display:inline-block;
+}
+.dropdown-links{
+    display:none;
+    position:absolute;
+    background-color: none;
+    color:azure;
+    width:100%;
+    overflow:auto;
+    z-index:1;
+}
+.dropdown-links a{
+    color:white;
+    text-decoration:none;
+    display:block;
+}
+
+.dropdown:hover  .dropdown-links{
+    display:block;} 
+   
